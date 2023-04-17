@@ -3,16 +3,16 @@ This program aims to predict diabetes using a machine learning algorithm called 
 Installation
 To run this program, you will need to have Python 3 installed on your computer, along with the following libraries:
 
-pandas
-matplotlib
-numpy
-sklearn
+  1. pandas
+  2. matplotlib
+  3. numpy
+  4. sklearn
 
 Usage
 To use this program, follow these steps:
 
-Download the diabetes.csv dataset and save it in the same directory as the program.
-Run the program using a Python interpreter (e.g., python diabetes_prediction.py).
-The program will output the raw data before and after normalization, and then split the data into training and testing sets.
-The program will then create a KNN model with k=3 and test its accuracy.
-Finally, the program will test the accuracy of the KNN model for different values of k (from 1 to 10), and predict whether a new patient is likely to have diabetes or not based on the input features.
+  1. Download the diabetes.csv dataset and save it in the same directory as the program.
+  2. Run the program using a Python interpreter.
+  3. The program will output the raw data before and after normalization, and then split the data into training and testing sets.
+  4. The program will then create a KNN model with k=3 and test its accuracy.
+  5. Finally, the program will test the accuracy of the KNN model for different values of k (from 1 to 10), and predict whether a new patient is likely to      have diabetes or not based on the input features.
